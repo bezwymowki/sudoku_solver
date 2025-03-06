@@ -73,13 +73,7 @@ def rozwiaz_sudoku(problem_sudoku):
     else:
         print("Nie da się rozwiązać danego sudoku.")
 
-
-
-
-
-
-
-puzzle = [
+tablica_do_rozwiazania = [
   [0, 0, 2, 0, 0, 8, 0, 0, 0],
   [0, 0, 0, 0, 0, 3, 7, 6, 2],
   [4, 3, 0, 0, 0, 0, 8, 0, 0],
@@ -91,11 +85,4 @@ puzzle = [
   [1, 7, 0, 0, 0, 6, 0, 0, 5]
 ]
 
-rozwiaz_sudoku(puzzle)
-
-#print(sudoku.tablica)
-#print(sudoku.czy_liczba_w_rzedzie(0, 1))
-#print(sudoku.czy_liczba_w_kolumnie(0, 4))
-#print(sudoku.czy_liczba_w_kwadracie(3, 2, 3))
-#print(sudoku.znajdz_zero())
-#print(sudoku.czy_mozna_wpisac_liczbe([0, 0], 1))
+rozwiaz_sudoku(tablica_do_rozwiazania)
